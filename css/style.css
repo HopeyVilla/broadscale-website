@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.hero-img {
+  height: 500px;
+  object-fit: cover;
+  opacity: 0.85;
+}
+
+.page-banner {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+}
+
+.footer {
+  background: linear-gradient(to right, #111, #333);
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #f8d210;
+}
+
+.product-card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.gallery-img {
+  border-radius: 15px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.95;
+}
+
+.gallery-img:hover {
+  transform: scale(1.03);
+  opacity: 0.8;
+}
+
+.custom-form {
+  background: rgba(255,255,255,0.95);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.info-box {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+img[alt] {
+  border: 4px solid #fff;
+}
+
+table {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.95) !important;
+}
+
+.dropdown-menu {
+  border-radius: 10px;
+}
+
+.popup-img {
+  cursor: pointer;
+}
+
+.float-img {
+  float: left;
+  width: 250px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.float-box::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.border-demo {
+  border: 12px solid transparent;
+  border-image: linear-gradient(to right, #222, #f8d210) 1;
+  padding: 15px;
+}
